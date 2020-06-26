@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main {
+    height: 60vh;
+}
+
+/* HEADER */
+
+header {
+    background: #00BFFF;
+    height: 25vh;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container-title {
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.header-menu {
+    float: right;
+    padding-right: 2rem;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-list li {
+    margin-top: 2rem;
+}
+
+.header-list a {
+    font-size: 18px;
+    color: #000;
+}
+
+.header-list a:hover {
+    color: #fff;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.header-container-images {
+    display: inline-block;
+    padding: 2rem 0 0 20rem;
+}
+
+.header-container-images img {
+    margin: 0 1rem;
+}
+
+/* MAIN */
+
+.projects-title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.projects-images {
+    display: inline-block;
+    padding: 7rem 0 0 7rem;
+}
+
+.projects-images img {
+    width: 200px;
+    margin-left: 1.5rem;
+}
+
+.projects-images img:hover {
+    border: 2px dashed #00BFFF;
+}
+
+/* FOOTER */
+
+.know-title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.image-perfil {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 10rem;
+}
+
+.container-know {
+    background-color: #00BFFF;
+}
+
+.know-text {
+    display: inline-block;
+    width: 50%;
+    margin: 1rem;
+}
+
+.know-text p {
+    color: #fff;
+}
+
+.container-text {
+    display: inline-block;
+    width: 50%;
+    padding: 3rem 5rem 5rem 0;
+}
+
+.anchor-image {
+    width: 100px;
+    float: right;
+    padding-right: 2rem;
+    margin-top: 17rem;
+    transform: rotate(270deg);
+}
